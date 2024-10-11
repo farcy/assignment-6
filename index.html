@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Business</title>
+    <!-- daisy UI link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.12/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+
+    <!-- css link  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="w-11/12 mx-auto py-4 flex justify-between items-center">
+            <div class="logo flex gap-2">
+                <img class="" src="images/logo.webp" alt="">
+                <h3 class="font-bold text-3xl">Peddy</h3>
+            </div>
+            <div class="Menu">
+                <ul class="menu menu-horizontal rounded-box">
+                    <li><a>Home</a></li>
+                    <li><a>Shop</a></li>
+                    <li><a>Contact</a></li>
+                </ul>
+            </div>
+            <div class="ProfileIcon text-xl border-2 rounded-[50%] p-3 px-4">
+                <i class="fa-regular fa-user"></i>
+            </div>
+        </nav>
+
+        <div class="hero w-11/12 mx-auto">
+            <div class="heroContent md:w-8/12 lg:w-6/12 mx-auto text-center">
+                <p>Bringing Families Together ❤️‍🔥 </p>
+                <h1 class="font-bold text-3xl md:text-4xl xl:text-6xl my-6">Your Path to Adoption Starts Here</h1>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+                    looking at its layout. The point of using Lorem Ipsum is that it has a.</p>
+                <button class="btn bg-[#0E7A81] text-white my-8">View More</button>
+                <img src="images/pet.webp" alt="">
+            </div>
+
+        </div>
+    </header>
+
+    <main class="w-11/12 mx-auto">
+        <div class="adoptBestFriend ">
+            <div class="title  md:w-8/12 lg:w-6/12 mx-auto text-center my-12">
+                <h1 class="font-bold text-2xl md:text-3xl my-6">Adopt Your Best Friend</h1>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+                    looking at its layout. The point of using Lorem Ipsum is that it has a.</p>
+            </div>
+
+            <div id="categories" class="py-3 grid grid-cols-2 md:grid-cols-4 gap-4 justify-between">
+
+            </div>
+        </div>
+
+        <div class=" flex justify-between items-center py-4">
+            <h3 class="font-black text-[24px]">Best Deal For you</h3>
+            <button class="btn bg-[#0E7A81] text-white">Sort by Price</button>
+        </div>
+
+
+
+
+
+        <div class=" gap-4 lg:flex">
+            <div id="all-post-container" class="lg:w-[65%] my-14">
+
+            </div>
+
+            <div id="append-id" class="lg:w-[35%] my-14 bg-[#797DFC1A] p-4 rounded-xl">
+                <div class="flex justify-between">
+                    <h4 class="text-xl font-bold">Title</h4>
+                    <div class="flex">
+                        <span class="text-green-500 mr-2"><i class="fa-solid fa-check-double"></i></span>
+                        <h4 class="text-base font-bold flex">Mark as read (<span id="mark-read-count">0</span>)</h4>
+                    </div>
+                </div>
+              
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+
+    <!-- footer section atart here -->
+    <footer class="footer bg-neutral text-neutral-content p-10 items-center md:justify-between justify-center">
+        <nav>
+            <div class="flex gap-2">
+                <img src="images/logo.webp" alt="">
+                <h3 class="font-bold text-2xl">Peddy</h3>
+            </div>
+            <a class="link link-hover">Branding</a>
+            <a class="link link-hover">Design</a>
+            <a class="link link-hover">Marketing</a>
+            <a class="link link-hover">Advertisement</a>
+        </nav>
+        <nav>
+            <h3 class="footer-title text-xl text-white">Useful Links</h3>
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Contact</a>
+            <a class="link link-hover">Jobs</a>
+            <a class="link link-hover">Press kit</a>
+        </nav>
+        <nav>
+            
+            <h3 class="footer-title text-xl text-white">Useful Links</h3>
+            
+            <input type="email" placeholder="Enter your email" class="p-3 rounded-xl text-black outline-none">
+
+        </nav>
+    </footer>
+
+
+
+
+    <!-- script js  -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
