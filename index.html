@@ -14,6 +14,14 @@
 
     <!-- css link  -->
     <link rel="stylesheet" href="style.css">
+
+
+    <style>
+        .btn{
+    padding: 30px;
+    align-content: center;
+}
+    </style>
 </head>
 
 <body>
@@ -72,11 +80,11 @@
 
 
         <div class=" gap-4 lg:flex">
-            <div id="all-post-container" class="lg:w-[65%] my-14">
+            <div id="all-pets-container" class="lg:w-[70%] my-14 grid sm:grid-cols-2 md:grid-cols-3">
 
             </div>
 
-            <div id="append-id" class="lg:w-[35%] my-14 bg-[#797DFC1A] p-4 rounded-xl">
+            <div id="append-id" class="lg:w-[30%] my-14 bg-[#797DFC1A] p-4 rounded-xl">
                 <div class="flex justify-between">
                     <h4 class="text-xl font-bold">Title</h4>
                     <div class="flex">
@@ -84,7 +92,7 @@
                         <h4 class="text-base font-bold flex">Mark as read (<span id="mark-read-count">0</span>)</h4>
                     </div>
                 </div>
-              
+
             </div>
         </div>
     </main>
@@ -101,22 +109,36 @@
                 <img src="images/logo.webp" alt="">
                 <h3 class="font-bold text-2xl">Peddy</h3>
             </div>
-            <a class="link link-hover">Branding</a>
-            <a class="link link-hover">Design</a>
-            <a class="link link-hover">Marketing</a>
-            <a class="link link-hover">Advertisement</a>
+            <div>
+                <ul>
+                    <li>Location: av. Washington 165, NY CA 54003</li>
+                    <li>Phone: +31 85 964 47 25</li>
+                    <li>Email: info@yourdomain.com</li>
+                    <li>Openings hours: 9.00 AM - 5.00 PM</li>
+                </ul>
+            </div>
+            <div>
+                <a class="link link-hover"><i class="fa-brands fa-facebook"></i></a>
+                <a class="link link-hover"><i class="fa-brands fa-x-twitter"></i></a>
+                <a class="link link-hover"><i class="fa-brands fa-youtube"></i></a>
+                <a class="link link-hover"><i class="fa-brands fa-instagram"></i></a></a>
+             
+            </div>
+
         </nav>
         <nav>
             <h3 class="footer-title text-xl text-white">Useful Links</h3>
+            <a class="link link-hover">Home</a>
             <a class="link link-hover">About us</a>
+            <a class="link link-hover">Animals</a>
+            <a class="link link-hover">Foundation</a>
             <a class="link link-hover">Contact</a>
-            <a class="link link-hover">Jobs</a>
-            <a class="link link-hover">Press kit</a>
+
         </nav>
         <nav>
-            
+
             <h3 class="footer-title text-xl text-white">Useful Links</h3>
-            
+
             <input type="email" placeholder="Enter your email" class="p-3 rounded-xl text-black outline-none">
 
         </nav>
@@ -127,6 +149,7 @@
 
     <!-- script js  -->
     <script src="script.js"></script>
+    
 
 </body>
 
